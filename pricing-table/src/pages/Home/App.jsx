@@ -25,21 +25,23 @@ export function App() {
             {
               <Card
               plano = "Free"
-              valor = "R$ 0,00 /mês"
+              valor = "R$ 0,00"
               />
               
             }
              {
-              <Card
-              plano = "Básico"
-              valor = "R$ 29,00 /mês"
-              />
+              <div id='basico'>
+                <Card
+                plano = "Básico"
+                valor = "R$ 29,00"
+                />
+              </div>
               
             }
             {
               <Card
               plano = "Profissional"
-              valor = "R$ 29,00 /mês"
+              valor = "R$ 59,00"
               />
               
             }

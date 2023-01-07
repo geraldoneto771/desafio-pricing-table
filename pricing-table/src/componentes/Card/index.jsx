@@ -4,7 +4,7 @@ export function Card(props) {
     return(
         <div className='card'>
             <strong>{props.plano}</strong>
-            <p>{props.valor}</p>
+            <p><span>{props.valor}</span> /mês</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <hr />
             <ul>
@@ -13,6 +13,8 @@ export function Card(props) {
             </ul>
 
             <button>ASSINAR</button>
+
+            
         </div>
     )
 }
